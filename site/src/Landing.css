@@ -1,0 +1,1589 @@
+@media screen and (max-width:768px) {
+
+  .App {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Open Sans;
+  }
+
+  .containerLanding {
+    width: 100%;
+  }
+
+  .navbarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+  }
+
+  .navbarContent {
+    width: 90%;
+  }
+  
+  .navbarActions {
+    display: none;
+  }
+
+  .bannerLandingPrincipal {
+    height: 659px;
+        background: #FAFBFD;
+    background-image: url('images/FrameMobile.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  .bannerTexto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bannerTextoTitulo {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #212529;
+    margin-top: 15%;
+  }
+
+  .bannerTextoSubtitulo {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;    
+    color: #212529;
+    margin-top: 5%;
+  }
+
+  .botoesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4%;
+  }
+
+  .BannerBotao {
+    width: 207px;
+    height: 40px;
+    background: #71CAD4;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 5%;
+    cursor: pointer;
+  }
+
+  .empresasParceiras {
+    display: flex;
+    align-items: center;
+    height: 77px;
+    background: #FAFBFD;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 0 5% 0 5%;
+  }
+  
+  .empresa {
+    margin: 2%;
+  }
+
+  .landingMissao {
+    display: flex;
+    justify-content: center;
+  }
+
+  .landingMissaoTexto {
+    width: 90%;
+  }
+
+  .landingMissaoTextoTitulo {
+    margin-top: 20%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #212529;
+    width: 100%;
+}
+
+.landingMissaoTextoSubtitulo {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #343A40;
+  margin-top: 10%;
+}
+
+  .landingMissaoImagem {
+    display: none;
+  }
+
+  .landingMissaoAcao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+  }
+
+  .landingMissaoAcaoBotao {
+    width: 207px;
+    height: 40px;
+        background: #71CAD4;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+
+  .landingMissaoAcaoVideoApresentacao {
+    margin-top: 10%;
+    margin-bottom: 15%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #71CAD4;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .landingVantagens {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 1348px;
+        background: #F0F5F8;
+  }
+
+  .landingVantagensTitulo {
+    margin-top: 3%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 10%;
+    font-size: 15px;
+    line-height: 21px;
+    font-variant: small-caps;
+    color: #36D3B8;
+  }
+  
+  .landingVantagensSubtitulo {
+    margin-top: 1%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #212529;
+  }
+  
+  .landingVantagensCards {
+    margin-top: 4%;
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .landingVantagensCardInfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 384px;
+    height: 424px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(25, 67, 81, 0.1);
+    border-radius: 6px;
+    margin-bottom: 5%;
+  }
+  
+  .landingVantagensCardInfoImagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+  }
+  
+  .landingVantagensCardInfoImagemTag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55%;
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .landingVantagensCardInfoTitulo {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    color: #212529;
+  }
+  
+  .palavraExtrangeira {
+    font-style: italic;
+    margin-right: 10px;
+  }
+  
+  .landingVantagensCardInfoSubtitulo {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #606A73;
+    margin-top: 5%;
+    width: 85%;
+  }
+
+  .landingPlataformaProponentes {    
+    display: flex;
+    width: 100%;
+    min-height: 700px;
+    background: #FFF;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .landingPlataformaProponentesHeaderContainer {
+    display: none;
+  }
+
+  .landingPlataformaProponentesTexto {
+    margin-top: 15%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #212529;
+    text-align: center;
+    width: 90%;
+  }
+
+  .landingPlataformaEmpresasTexto {
+    margin-top: 10%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #212529;
+    text-align: center;
+    width: 90%;
+  }
+  
+  .textoCorDiferente {
+    color: #71CAD4;
+  }
+
+  .imagemPreviewPlataforma {
+    width: 90%;
+    margin-bottom: 15%;
+  }
+
+  .landingPlataformaProponentesTextoPlataformaBotaoMobile {
+    width: 207px;
+    height: 40px;
+    background: #71CAD4;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 10%;
+  }
+
+  .landingPlataformaProponentesTextoPlataforma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .landingPlataformaProponentesTitulo {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #212529;
+    margin-bottom: 2%;
+  }
+
+  .landingPlataformaProponentesBarra {  
+  width: 86px;
+  height: 0px;
+  left: 112px;
+  top: 2365px;
+  border: 2px solid #71CAD4;
+  margin-bottom: 5%;
+  }
+
+  .landingPlataformaProponentesSubtituloBold {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #212529;
+    margin-bottom: 4%;
+    width: 95%;
+  }
+
+  .landingPlataformaProponentesSubtitulo {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #606A73;
+    width: 95%;
+  }
+
+  .landingPlataformaProponentesBotao {
+    display: none
+  }
+
+  .landingPlataformaProponentesTextoImagem {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+
+  .landingPlataformaProponentesConteudoContainerDesktop {
+    display: none;
+  }
+
+  .landingPlataformaEmpresas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 700px;
+    background: #F0F5F8;
+  }
+
+  .landingTireSuasDuvidasContainer {
+    width: 100%;
+    height: 700px;
+    left: 0px;
+    top: 7221px;
+    background: #71CAD4;
+  }
+
+  .landingTireSuasDuvidasConteudoTexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .landingTireSuasDuvidasConteudoTitulo {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15%;
+    width: 85%;
+  }
+
+  .landingTireSuasDuvidasConteudoSubtitulo {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FAFBFD;
+    width: 90%;
+    margin: 5% 0 5% 0;
+  }
+
+  .landingTireSuasDuvidasConteudoBotao {
+    width: 207px;
+    height: 40px;
+    background: #FFF;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #71CAD4;
+    cursor: pointer;
+    margin: 5%;
+  }
+
+  .landingTireSuasDuvidasConteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .landingTireSuasDuvidasConteudoImagemTag {
+    width: 85%;
+  }
+
+  .landingTireSuasDuvidasConteudoImagem {
+    display: flex;
+    justify-content: center;
+  }
+
+  .landingDepoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .landingDepoimentosTitulo {
+    margin-bottom: 10%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #212529;
+    margin-top: 25%;
+    width: 80%;
+    text-align: center;
+  }
+
+  .landingDepoimentosDepoimento {
+    width: 343px;
+    height: 219px;
+    background: #FAFBFD;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .landingDepoimentosDepoimentoHeaderImagem {
+    display: none;
+  }
+
+  .landingDepoimentosDepoimentoHeader {
+    margin: 5%;
+    display: flex;
+  }
+
+  .landingDepoimentosDepoimentoHeaderNome {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #71CAD4;
+  }
+
+  .landingDepoimentosDepoimentoHeaderLocal {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #606A73;
+  }
+
+  .landingDepoimentosDepoimentoMensagemContainer {
+    margin: 5%;
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212529;
+  }
+
+  .landingDepoimentosDepoimentoEmpresasQueAcreditamContainer {
+    width: 95%;
+    margin: 10% 0 5% 0;
+    height: 130px;
+  }
+
+  .landingDepoimentosDepoimentoEmpresasQueAcreditam {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .landingPotencializeContainer {
+    width: 100%;
+    height: 321px;
+    background: #71CAD4;
+    background-image: url('./images/fundoPotencialize.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
+
+  .landingPotencializeConteudo {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8%;
+  }
+  
+  .landingPotencializeConteudoTitulo {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 38px;
+    color: #FAFBFD;
+  }
+  
+  .landingPotencializeConteudoSubtitulo {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FAFBFD;
+    margin: 2% 0 2% 0;
+  }
+  
+  .landingPotencializeConteudoAcoesBotao {
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 207px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #71CAD4;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    margin-bottom: 5%;
+  }
+
+  .landingFooter {
+    display: none;
+  }
+
+  .landingFooterMobile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .landingFooterContentColunaImagem {
+    display: none;
+  }
+
+  .landingFooterContentMobile {
+    width: 90%;
+  }
+
+  .landingFooterContentColunaContainer {
+    display: flex;
+    margin: 10% 0 10% 0;
+    justify-content: space-between;
+  }
+
+  .landingFooterContentColunaInfoTexto {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #212529;
+    margin-bottom: 10%;
+  }
+  
+  .landingFooterContentColunaInfoItem {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #606A73;
+    margin: 5% 0 5% 0;
+  }
+
+  .landingFooterContentColunaNewsletterTexto {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #212529;
+  }
+  
+  .landingFooterContentColunaNewsletterSubtitulo {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #606A73;
+  }
+
+  .landingFooterDescription {
+    width: 90%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 18px;
+    color: #868E96;
+    margin: 10% 0px 10% 0;
+  }
+
+}
+
+.App {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Open Sans;
+}
+
+@media screen and (min-width: 769px) {
+
+.containerLanding {
+  width: 80%;
+}
+
+.landingFooterMobile {
+  display: none;
+}
+
+.landingPlataformaProponentesTextoPlataformaBotaoMobile {
+  display: none;
+}
+
+.landingPlataformaProponentesConteudoContainerMobile {
+  display: none
+}
+
+.iconeNavbar {
+  padding: 25px;  
+  font-size: 15px;
+  color: #212529;
+  text-decoration: none;
+}
+
+.iconeNavbarAcao {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  color: #212529;
+  text-decoration: none;
+  padding: 25px;
+}
+
+.iconeNavbarAcao-servico {
+  border: 1px solid #71CAD4;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 10px;
+  text-decoration: none;
+  color: #71CAD4;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;  
+  transition: ease 0.4s;
+}
+
+.iconeNavbarAcao-servico:hover {
+  background-color: #71CAD4;
+  color: #fff;
+}
+
+.bannerLandingPrincipal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 659px;
+  background: #FAFBFD;
+  background-image: url('images/Frame.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.botoesContainer {
+  display: flex;
+  margin-top: 3%;
+}
+
+.BannerBotao {
+  width: 207px;
+  height: 40px;
+  background: #71CAD4;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 600;
+  margin-right: 2%;
+  cursor: pointer;
+}
+
+.bannerTexto {
+  width: 100%;
+  margin-left: 5%;
+}
+
+.bannerTextoTitulo {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 62px;
+  color: #212529;
+}
+
+.bannerTextoSubtitulo {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #212529;
+  width: 55%;
+}
+
+.empresasParceiras {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 77px;
+  background: #FAFBFD;
+}
+
+.empresa {
+  padding: 1%;
+}
+
+.navbarContainer {  
+  width: 100%;
+  height: 90px;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbarContent {  
+  width: 90%;
+  height: 100%;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landingMissao {
+  display: flex;
+  flex-wrap: wrap;
+  height: 659px;
+}
+
+.landingMissaoImagem {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landingMissaoImagemTag {
+  width: 80%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.landingMissaoTexto {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 45%;
+}
+
+.landingMissaoTextoTitulo {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: #212529;
+}
+
+.landingMissaoTextoSubtitulo {
+  margin-top: 3%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #343A40;
+}
+
+.landingMissaoAcao {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.landingMissaoAcaoBotao {
+  width: 207px;
+  height: 40px;
+  background: #71CAD4;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: ease 0.4s;
+}
+
+.landingMissaoAcaoVideoApresentacao {
+  margin-left: 5%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #71CAD4;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landingVantagens {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 536px;
+  background: #F0F5F8;
+}
+
+.landingVantagensTitulo {
+  margin-top: 3%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  font-variant: small-caps;
+  color: #36D3B8;
+}
+
+.landingVantagensSubtitulo {
+  margin-top: 1%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  color: #212529;
+}
+
+.landingVantagensCards {
+  margin-top: 4%;
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.landingVantagensCardInfo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  height: 424px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 5px rgba(25, 67, 81, 0.1);
+  border-radius: 6px;
+}
+
+.landingVantagensCardInfoImagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  width: 100%;
+}
+
+.landingVantagensCardInfoImagemTag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.landingVantagensCardInfoTitulo {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  color: #212529;
+}
+
+.palavraExtrangeira {
+  font-style: italic;
+  margin-right: 10px;
+}
+
+.landingVantagensCardInfoSubtitulo {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #606A73;
+  margin-top: 5%;
+  width: 85%;
+}
+
+.landingPlataformaProponentes {
+  width: 100%;
+  height: 1052px;
+  background: #FFF;
+}
+
+.landingPlataformaProponentes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landingPlataformaProponentesTexto {
+  margin-top: 15%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: #212529;
+}
+
+.textoCorDiferente {
+  color: #71CAD4;
+}
+
+.landingPlataformaProponentesHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  width: 85%;
+  height: 56px;
+  background: #FAFBFD;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.landingPlataformaProponentesHeaderIcone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  font-variant: small-caps;
+  color: #343A40;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.landingPlataformaProponentesHeaderContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.landingPlataformaProponentesConteudoContainerDesktop {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.landingPlataformaProponentesConteudo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 85%;
+  transition: 0.4s;
+}
+
+.landingPlataformaProponentesBarra {  
+width: 86px;
+height: 0px;
+left: 112px;
+top: 2365px;
+border: 2px solid #71CAD4;
+margin-bottom: 5%;
+}
+
+.landingPlataformaProponentesTitulo {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 39px;
+  color: #212529;
+  margin-bottom: 2%;
+}
+
+.landingPlataformaProponentesSubtituloBold {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #212529;
+  margin-bottom: 2%;
+}
+
+.landingPlataformaProponentesSubtitulo {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #606A73;
+  width: 90%;
+}
+
+.landingPlataformaProponentesBotao {
+  width: 207px;
+  height: 40px;
+  background: #71CAD4;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+.imagemPreviewPlataforma {
+  width: 100%;
+  height: 100%;
+}
+
+.landingPlataformaEmpresas {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 1052px;
+  background: #F0F5F8;
+}
+
+.landingPlataformaEmpresasTexto {
+  margin-top: 5%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: #212529;
+}
+
+.landingTireSuasDuvidasContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: -15%;
+}
+
+.landingTireSuasDuvidasConteudo {  
+  display: flex;
+  width: 80%;
+  height: 400px;
+  background: #71CAD4;
+}
+
+.landingTireSuasDuvidasConteudoTexto {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  margin: 5%;
+}
+
+.landingTireSuasDuvidasConteudoTitulo {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  color: #FAFBFD;
+}
+
+.landingTireSuasDuvidasConteudoSubtitulo {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FAFBFD;
+  margin: 4% 0% 4% 0%;
+}
+
+.landingTireSuasDuvidasConteudoBotao {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 207px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #71CAD4;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.landingTireSuasDuvidasConteudoImagem {
+  margin-top: 3%;
+}
+
+.landingTireSuasDuvidasConteudoImagemTag {
+  width: 95%;
+}
+
+.landingDepoimentos {
+  width: 100%;
+  height: 1052px;
+}
+
+.landingDepoimentos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.landingDepoimentosTitulo {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: #212529;
+  margin-top: 15%;
+}
+
+.landingDepoimentosDepoimento {
+  width: 70%;
+  height: 265px;
+  background: #FAFBFD;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 5%;
+}
+
+.landingDepoimentosDepoimentoHeader {
+  height: 30%;
+  display: flex;
+  align-items: center;
+  padding: 3%;
+}
+
+.landingDepoimentosDepoimentoHeaderInfo {
+  width: 80%;
+  margin-left: 2%;
+}
+
+.landingDepoimentosDepoimentoHeaderNome {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #71CAD4;
+}
+
+.landingDepoimentosDepoimentoHeaderLocal {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #606A73;
+}
+
+.landingDepoimentosDepoimentoHeaderIcone {
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.landingDepoimentosDepoimentoMensagemContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.landingDepoimentosDepoimentoMensagem {
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #212529;
+  width: 85%;
+}
+
+.landingDepoimentosDepoimentoEmpresasQueAcreditamContainer {
+  margin-top: 5%;
+  width: 70%;
+}
+
+.landingDepoimentosDepoimentoEmpresasQueAcreditam {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.landingPotencializeContainer {
+  width: 100%;
+  height: 321px;
+  background: #71CAD4;
+  background-image: url('./images/fundoPotencialize.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.landingPotencializeConteudo {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 8%;
+}
+
+.landingPotencializeConteudoTitulo {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: #FAFBFD;
+}
+
+.landingPotencializeConteudoSubtitulo {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FAFBFD;
+  margin: 2% 0 2% 0;
+}
+
+.landingPotencializeConteudoAcoes {
+  display: flex;
+}
+
+.landingPotencializeConteudoAcoesBotao {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 207px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #71CAD4;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  margin-right: 2%;
+}
+
+.landingFooter {
+  width: 100%;
+  height: 400px;
+  background: #FFF;
+}
+
+.landingFooterContent {
+  height: 70%;
+  padding: 5% 8% 0% 8%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.landingFooterContentColunaInfoTexto {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #212529;
+  margin-bottom: 10%;
+}
+
+.landingFooterContentColunaNewsletter {
+  width: 40%;
+}
+
+.landingFooterContentColunaNewsletterTexto {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #212529;
+}
+
+.landingFooterContentColunaInfoItem {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #606A73;
+  margin: 5% 0 5% 0;
+}
+
+.landingFooterContentColunaNewsletterSubtitulo {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #606A73;
+}
+
+.landingFooterDescription {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #868E96;
+  width: 51%;
+  margin-left: 8%;
+}
+
+.landingFooterContentColunaNewsletterFormularioContainer {
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.landingFooterContentColunaNewsletterFormularioCima {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.landingFooterContentColunaNewsletterFormularioBaixo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.landingFooterContentColunaNewsletterFormularioNome {
+  width: 48%;
+  border: 1px solid #DEE2E6;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 30px;
+  padding: 5px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #868E96;
+}
+
+.landingFooterContentColunaNewsletterFormularioEmail {
+  width: 65%;
+  border: 1px solid #DEE2E6;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 30px;
+  padding: 5px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;  
+  color: #868E96;
+}
+
+.landingFooterContentColunaNewsletterFormularioEnviar {
+  width: 162px;
+  height: 36px;
+  left: 1166px;
+  top: 6123px;
+  background: #71CAD4;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.landingFooterContentColunaNewsletterFormularioDropdown {
+  border: 1px solid #DEE2E6;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 30px;
+  width: 48%;
+  padding: 5px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #868E96;
+}
+
+}

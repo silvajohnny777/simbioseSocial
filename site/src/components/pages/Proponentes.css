@@ -1,0 +1,1223 @@
+@media screen and (max-width: 768px) {
+
+    .paginaPropoentesHeader {
+        height: 430px;
+        left: -1px;
+        top: 91px;
+        background-image: url('../../images/paginaProponentes1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 20%;
+    }
+
+    .paginaPropoentesHeader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .paginaPropoentesHeaderTexto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .paginaPropoentesHeaderTextoTitulo {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 62px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 20%;
+    }
+    
+    .paginaPropoentesHeaderTextosubTitulo {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 30px;
+        color: #FFFFFF;
+        width: 80%;
+        text-align: center;
+        margin-top: 5%;
+    }
+    
+    .paginaPropoentesHeaderTextoBotao {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 4px;
+        width: 200px;
+        height: 40px;
+        justify-content: center;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        color: #FFFFFF;
+        cursor: pointer;
+        transition: ease 0.4s;
+        margin-top: 5%;
+    }
+
+    .paginaPropoentesOQueeConteudoEsquerdo {
+        display: none;
+    }
+
+    .paginaPropoentesOQueeContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paginaPropoentesOQueeConteudoDireito {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paginaPropoentesOQueeTitulo {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 33px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #212529;
+        margin-top: 10%;
+    }
+
+    .paginaPropoentesOQueeDescricao {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #343A40;
+        width: 90%;
+        margin-top: 5%;
+    }
+
+    .paginaPropoentesOQueeConteudoEsquerdoMobile {
+        margin-top: 10%;
+        width: 90%;
+    }
+
+    .paginaPropoentesOQueeConteudoEsquerdoMobileTag {
+        width: 100%;
+    }
+
+    .paginaPropoentesBeneficiosConteudo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1000px;
+    }
+
+    .paginaPropoentesBeneficiosTitulo {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        color: #212529;
+        margin-top: 20%;
+        margin-bottom: 5%;
+    }
+
+    .paginaPropoentesBeneficiosCard {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        height: 261px;
+        left: 33px;
+        top: 1340px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgba(13, 46, 61, 0.12);
+        margin-top: 8%;
+    }
+
+    .paginaPropoentesBeneficiosCardConteudo {
+        height: 100%;
+        width: 90%;
+    }
+
+    .paginaPropoentesBeneficiosCardImagem {
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paginaPropoentesBeneficiosCardTitulo {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #71CAD4;
+    }
+
+    .paginaPropoentesBeneficiosCardDescricao {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #343A40;
+    }
+
+    .paginaPropoentesLeisDeIncentivo {
+        height: 500px;
+        background: #F0F5F8;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .paginaPropoentesLeisDeIncentivoConteudo {
+        width: 90%;
+    }
+
+    .tituloSecaoPaginaProponente {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 33px;
+        display: flex;
+        align-items: center;
+        color: #212529;
+        margin-top: 10%;
+    }
+
+    .barraSeparacao {
+        width: 158px;
+        height: 0px;
+        left: 33px;
+        top: 2398px;
+        border: 1px solid #1F99A7;
+        margin: 2% 0 5% 0;
+    }
+
+    .subtituloSecaoPaginaProponente {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #343A40;
+    }
+
+    .paginaPropoentesLeisDeIncentivoImagemTag {
+        width: 100%;
+        margin-left: -15%;
+    }
+
+    .paginaPropoentesResultadosRelevantes {
+        height: 420px;
+        background: #F0F5F8;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 25%;
+    }
+
+    .paginaPropoentesResultadosRelevantesConteudo {
+        width: 90%;
+    }
+
+    .paginaPropoentesResultadosRelevantesImagemTag {
+        width: 100%;
+    }
+
+    .paginaPropoentesDicasPersonalizadas {
+        height: 470px;
+        background: #F0F5F8;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 30%;
+    }
+
+    .paginaPropoentesDicasPersonalizadasConteudo {
+        width: 90%;
+    }
+
+    .paginaPropoentesResultadosDicasPeronalizadas {
+        margin-top: 10%;
+    }
+
+    .paginaPropoentesResultadosDicasPeronalizadasTag {
+        width: 100%;
+    }
+
+    .paginaPropoentesBuscaFiltro {
+        display: flex;
+        justify-content: center;
+    }
+
+    .paginaPropoentesBuscaFiltroConteudo {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+
+    .paginaPropoentesBuscaFiltroImagemTag {
+        width: 100%;
+        margin: 5% 0 10% 0;
+    }
+
+    .paginaPropoentesRelatorioDetalhadoTag {
+        width: 100%;
+        margin: 5% 0 10% 0;
+        margin-left: -15%;
+    }
+
+    .navbarContent {
+        width: 90%;
+        background: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menuMobileContainer {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .menuMobile {
+        width: 100%;
+        height: 932px;
+        background: #FAFBFD;
+        position: absolute;
+        transition: ease 0.4s;
+    }
+
+    .menuMobileConteudoInfo {
+        display: flex;
+        justify-content: center;
+        margin-top: 15%;
+    }
+
+    .menuMobileConteudoInfoContainer {
+        width: 90%;
+        display: flex;
+    }
+
+    .menuMobileConteudoInfoColunaEsquerda {
+        width: 50%;
+    }
+
+    .menuMobileConteudoInfoColunaDireita {
+        width: 50%;
+    }
+
+    .menuMobileConteudoInfoColunaTitulo {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        font-variant: small-caps;
+        color: #868E96;
+        margin-bottom: 5%;
+    }
+
+    .menuMobileConteudoInfoColunaItemContainer {
+        margin: 5% 0 5% 0;
+    }
+
+    .menuMobileConteudoInfoColunaItem {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #212529;
+        text-decoration: none;
+        margin: 5% 0 5% 0;
+    }
+
+    .paginaPropoentesPlanosProponenteDesktop {
+        display: flex;
+        justify-content: center;
+    }
+
+    .paginaPropoentesPlanosProponenteContainer {
+        width: 90%;
+        margin-top: 10%;
+    }
+
+    .paginaPropoentesPlanosProponenteTexto {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+        color: #212529;
+    }
+
+    .paginaPropoentesPlanosProponentePlanosHeader {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 48px;
+        left: 467px;
+        top: 4355px;
+        background: #FAFBFD;
+        border: 1px solid #DEE2E6;
+        box-sizing: border-box;
+        border-radius: 6px;
+        margin: 10% 0 10% 0;
+    }
+
+    .paginaPropoentesPlanosProponentePlano {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 21px;
+        font-variant: small-caps;
+        height: 100%;
+        width: 34%;
+        cursor: pointer;
+    }
+
+    .paginaPropoentesPlanosProponenteCards {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .paginaPropoentesPlanosProponenteCard {
+        width: 312px;
+        min-height: 313px;
+        left: 66px;
+        top: 4441px;
+        background: #FFFFFF;
+        border: 1px solid #E9ECEF;
+        box-sizing: border-box;
+        padding: 15px;
+        margin-top: 5%;
+        margin-left: 10px;
+    }
+
+    .paginaPropoentesPlanosProponenteCardPeriodicidade {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        font-variant: small-caps;
+        color: #343A40;
+        justify-content: center;
+    }
+
+    .barraDivideCardProponentePlanos {
+        width: 90%;
+        height: 0px;
+        border: 0.6px solid #CED4DA;
+        margin: 5%;
+    }
+
+    .paginaPropoentesPlanosProponenteCardPreco {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 38px;
+        display: flex;
+        flex-direction: column;
+        color: #212529;
+    }
+    
+    .paginaPropoentesPlanosProponenteCardValorDescricao {
+        height: 30px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .paginaPropoentesPlanosProponenteCardConteudo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 150px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #212529;
+    }
+
+    .paginaPropoentesPlanosProponenteCardValorTotal {
+        height: 30px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .paginaPropoentesPlanosProponenteCardFooterBotao {
+        width: 286px;
+        height: 39.69px;
+        background: #71CAD4;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFF;
+        font-weight: 600;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .paginaPropoentesPlanosProponenteCardFooterMensagem {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        color: #606A73;
+        margin-top: 5%;
+    }
+
+    .paginaPropoentesPlanosProponenteDesktopMensagem {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #212529;
+        height: 40px;
+        justify-content: center;
+        margin: 10%;
+    }
+
+    .paginaPropoentesPerguntasERespostas {
+        min-height: 572px;
+        background: #FAFBFD;
+        display: flex;
+        justify-content: center;
+    }
+
+    .paginaPropoentesPerguntasERespostasConteudo {
+        width: 90%;
+    }
+
+    .paginaPropoentesPerguntasERespostasTexto {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+        color: #212529;
+        margin: 7% 0 10% 0;
+    }
+
+    .paginaPropoentesPerguntasERespostasPergunta {
+        margin-top: 1%;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #343A40;
+    }
+
+    .barraDividePerguntas {
+        height: 0px;
+        border: 1px solid #ADB5BD;
+        margin: 2% 0 5% 0;
+    }
+
+    .paginaPropoentesPerguntasERespostasResposta {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #343A40;
+        margin: 2% 10% 2% 3%;
+    }
+
+    .iconePerguntaTag { 
+        transition: ease 0.4s;
+        margin-right: 1%;
+    }
+
+    .paginaPropoentesPlanosProponentePlano {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 21px;
+        font-variant: small-caps;
+        color: #343A40;
+        height: 100%;
+        width: 34%;
+        cursor: pointer;
+    }
+    
+    .paginaPropoentesPlanosTextoBold {
+        font-weight: bold;
+        margin-right: 5px;
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+
+.menuMobileContainer {
+    display: none;
+}
+
+.imagemMenuMobile {
+    display: none;
+}
+
+.paginaPropoentesOQueeConteudoEsquerdoMobile {
+    display: none
+}
+
+.paginaPropoentesHeader {
+    height: 595px;
+    left: -1px;
+    top: 91px;
+    background-image: url('../../images/paginaProponentes1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paginaPropoentesHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginaPropoentesHeaderTexto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+    justify-content: space-between;
+}
+
+.paginaPropoentesHeaderTextoTitulo {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 62px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.paginaPropoentesHeaderTextosubTitulo {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.paginaPropoentesHeaderTextoBotao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 200px;
+    height: 40px;
+    justify-content: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: ease 0.4s;
+}
+
+.paginaPropoentesHeaderTextoBotao:hover {
+    color: #FFFFFF;
+    background-color: #71CAD4;
+    border: 1px solid #71CAD4;
+}
+
+.paginaPropoentesOQueeContainer {
+    margin-top: -3%;
+}
+
+.paginaPropoentesOQueeContainer {
+    display: flex;
+}
+
+.paginaPropoentesOQueeConteudoEsquerdo {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginaPropoentesOQueeConteudoDireito {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.paginaPropoentesOQueeTitulo {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    color: #212529;
+    margin-bottom: 3%;
+}
+
+.paginaPropoentesOQueeDescricao {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #343A40;
+    width: 90%;
+}
+
+.paginaPropoentesBeneficios {
+    min-height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginaPropoentesBeneficiosConteudo {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.paginaPropoentesBeneficiosTexto {
+    margin-top: 3%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #212529;
+    width: 25%;
+}
+
+.paginaPropoentesBeneficiosCard {
+    width: 280px;
+    height: 400px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(13, 46, 61, 0.12);
+    margin: 1%;
+}
+
+.paginaPropoentesBeneficiosCardConteudo {
+    height: 100%;
+    margin: 5%;
+}
+
+.paginaPropoentesBeneficiosCardImagem {
+    height: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.paginaPropoentesBeneficiosCardTitulo {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    color: #71CAD4;
+    height: 20%;
+}
+
+.paginaPropoentesBeneficiosCardDescricao {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #343A40;
+}
+
+.paginaPropoentesLeisDeIncentivo {
+    width: 100%;
+    height: 560px;
+    margin-top: 5%;
+    background: #F0F5F8;
+}
+
+.paginaPropoentesLeisDeIncentivo {
+    display: flex;
+    align-items: center;
+}
+
+.paginaPropoentesLeisDeIncentivoConteudo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.paginaPropoentesLeisDeIncentivoTexto {
+    width: 40%;
+    margin: 5% 0 5% 5%;
+}
+
+.paginaPropoentesLeisDeIncentivoImagem {
+    width: 50%; 
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloSecaoPaginaProponente {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    color: #212529;
+}
+
+.subtituloSecaoPaginaProponente {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #343A40;
+    width: 85%;
+}
+
+.barraSeparacao {
+    width: 158px;
+    height: 2px;
+    background-color: #1F99A7;
+    margin: 3% 0 3% 0;
+}
+
+.paginaPropoentesLeisDeIncentivoImagemTag {
+    width: 95%;
+}
+
+.paginaPropoentesBuscaFiltro {
+    width: 100%;
+    height: 560px;
+}
+
+.paginaPropoentesBuscaFiltroConteudo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.paginaPropoentesBuscaFiltroImagem {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.paginaPropoentesBuscaFiltroImagemTag {
+    width: 85%;
+}
+
+.paginaPropoentesBuscaFiltroTexto {
+    width: 50%;
+}
+
+.paginaPropoentesResultadosRelevantes {
+    height: 472px;
+    left: -1px;
+    top: 2616px;    
+    background: #FAFBFD;
+}
+
+.paginaPropoentesResultadosRelevantes {
+    display: flex;
+    align-items: center;
+}
+
+.paginaPropoentesResultadosRelevantesConteudo {
+    display: flex;
+    align-items: center;
+}
+
+.paginaPropoentesResultadosRelevantesTexto {
+    width: 40%;
+    margin: 5% 0 5% 5%;
+}
+
+.paginaPropoentesResultadosRelevantesImagem {
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+    width: 50%;
+}
+
+.paginaPropoentesDicasPersonalizadas {
+    height: 575px;
+    left: -1px;
+    top: 3615px;    
+    background: #F0F5F8;
+}
+
+.paginaPropoentesDicasPersonalizadasConteudo {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.paginaPropoentesPlanosProponenteDesktop {
+    display: flex;
+    justify-content: center;
+    min-height: 800px;
+}
+
+.paginaPropoentesPlanosProponenteContainer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paginaPropoentesPlanosProponenteTexto {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #212529;
+    margin-top: 7%;
+}
+
+.paginaPropoentesPlanosProponentePlanosHeader {
+    display: flex;
+    align-items: center;
+    width: 506px;
+    height: 48px;
+    left: 467px;
+    top: 4355px;
+    background: #FAFBFD;
+    border: 1px solid #DEE2E6;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-top: 3%;
+}
+
+.paginaPropoentesPlanosProponentePlano {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 21px;
+    font-variant: small-caps;
+    color: #343A40;
+    height: 100%;
+    width: 34%;
+    cursor: pointer;
+}
+
+.paginaPropoentesPlanosTextoBold {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.paginaPropoentesPlanosProponenteCards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.paginaPropoentesPlanosProponenteCard {
+    width: 312px;
+    height: 463px;
+    left: 66px;
+    top: 4441px;
+    background: #FFFFFF;
+    border: 1px solid #E9ECEF;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-top: 5%;
+    margin-left: 10px;
+}
+
+.paginaPropoentesPlanosProponenteCardPeriodicidade {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    color: #343A40;
+    justify-content: center;
+}
+
+.barraDivideCardProponentePlanos {
+    width: 90%;
+    height: 0px;
+    left: 76px;
+    top: 4482px;
+    border: 0.6px solid #CED4DA;
+    margin: 5%;
+}
+
+.paginaPropoentesPlanosProponenteCardPreco {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    margin-top: 10%;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.paginaPropoentesPlanosProponenteCardPrecoRS {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    height: 30px;
+}
+
+.paginaPropoentesPlanosProponenteCardValor {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #212529;
+    margin-left: 5px;
+}
+
+.paginaPropoentesPlanosProponenteCardValorDescricao {
+    height: 30px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.paginaPropoentesPlanosProponenteCardValorTotal {
+    height: 30px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.paginaPropoentesPlanosProponenteCardConteudo {
+    height: 40%;
+}
+
+.paginaPropoentesPlanosProponenteCardFooterBotao {
+    width: 286px;
+    height: 39.69px;
+    background: #71CAD4;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.paginaPropoentesPlanosProponenteCardFooterMensagem {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    align-items: center;
+    color: #606A73;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.paginaPropoentesPlanosProponenteCardConteudo {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212529;
+}
+
+.paginaPropoentesPlanosProponenteCardConteudoItem {
+    margin-bottom: 5%;
+}
+
+.paginaPropoentesPlanosProponenteDesktopMensagem {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #212529;
+    height: 40px;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.paginaPropoentesPerguntasERespostas {
+    display: flex;
+    justify-content: center;
+    min-height: 582px;
+    background: #FAFBFD;
+}
+
+.paginaPropoentesPerguntasERespostasConteudo {
+    height: 100%;
+    width: 90%;
+}
+
+.paginaPropoentesPerguntasERespostasPerguntasContainer {
+    margin-top: 2%;
+    text-align: justify;
+}
+
+.paginaPropoentesPerguntasERespostasTexto {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #212529;
+    margin-top: 5%;
+}
+
+.barraDividePerguntas {
+    width: 90%;
+    height: 0px;
+    border: 1px solid #ADB5BD;
+    margin: 1% 0 2% 0;
+}
+
+.paginaPropoentesPerguntasERespostasPergunta {
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.iconePerguntaTag { 
+    transition: ease 0.4s;
+    margin-right: 1%;
+}
+
+.paginaPropoentesPerguntasERespostasResposta {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #343A40;
+    margin: 2% 13% 2% 3%;
+}
+
+}
